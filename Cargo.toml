@@ -2,7 +2,7 @@
 members = ["packages/tools"]
 default-members = ["packages/tools"]
 resolver = "2"
-edition = "2024"
+edition = "2021"
 exclude = [
     "linkchecker", # linkchecker is part of the CI workflow
     "listings",    # these are intentionally distinct from the workspace
